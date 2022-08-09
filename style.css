@@ -1,0 +1,146 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding: 70px 0;
+}
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+header, .navbar{
+    background-color: #353d41;
+}
+.nav-container{
+    padding-top: 0;
+    padding-bottom: 0;margin-bottom: 5px;
+}
+#logo{
+    width: 65px;
+    padding-left: 5px;
+}
+.navbar-brand{
+    padding: 0;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+#navbar-links a{
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+.container-fluid{
+   padding: 0; 
+}
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: white;
+}
+.main-btn{
+    background-color: #65daf9;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+}
+.main-btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #65DAF9;
+}
+.carousel-indicators .active{
+    background-color: #65DAF9;
+}
+
+#about-area{
+    background-color: #f9f9f9;
+}
+
+.main-title{
+    color: #444;
+    margin: 0 0 30px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    display: block;
+    position: absolute;
+    margin-top: 1px;
+    left: 43%;
+    color: #333;
+}
+ul{
+    list-style: none;
+    justify-content: left;
+}
+.fa-check{
+    color: #65DAF9;
+    margin-right: 6px;
+}
+.service-box{
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.service-box i{
+    font-size: 36px;
+    margin-bottom: 7px;
+}
+.service-box i, .service-box h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-box p{
+    text-align: center;
+}
+.card-title{
+    margin-top: 8px;
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+label, #emailHelp{
+    margin-left: 5px;
+}
+.btn{
+    color: white;
+}
+span{
+    font-weight: bold;
+    color: #65DAF9;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
